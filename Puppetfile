@@ -59,3 +59,14 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "cocoapods",   "1.1.0", :repo => "mpherg/puppet-cocoapods"
+github "handbrake"
+github "iterm2"
+github "java"
+github "osx"
+github "python"
+github "quicksilver"
+github "spectacle"
+github "virtualbox", "1.0.12"
+
