@@ -10,9 +10,9 @@ class people::mlevitt {
 
   include virtualbox
 
-  # Install veewee
-  ruby_gem { "veewee":
-    gem          => 'veewee',
-    ruby_version => '2.0.0'
-  }
+#   # Install veewee
+#   ruby_gem { "veewee":
+#     gem          => 'veewee',
+#     ruby_version => '2.0.0'
+#   }
 }
