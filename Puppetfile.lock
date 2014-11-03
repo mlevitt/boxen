@@ -9,6 +9,16 @@ GITHUBTARBALL
     dnsmasq (2.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.4.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-flux
+  specs:
+    flux (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
     foreman (1.2.0)
@@ -104,9 +114,24 @@ GITHUBTARBALL
     ruby (8.1.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.9)
+
+GITHUBTARBALL
   remote: boxen/puppet-spectacle
   specs:
     spectacle (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-spotify
+  specs:
+    spotify (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-steam
+  specs:
+    steam (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -117,6 +142,11 @@ GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
     virtualbox (1.0.12)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
@@ -147,6 +177,8 @@ DEPENDENCIES
   boxen (= 3.7.0)
   cocoapods (= 1.1.0)
   dnsmasq (= 2.0.0)
+  dropbox (>= 0)
+  flux (>= 0)
   foreman (= 1.2.0)
   gcc (= 2.2.0)
   git (= 2.5.0)
@@ -168,9 +200,13 @@ DEPENDENCIES
   quicksilver (>= 0)
   repository (= 2.3.0)
   ruby (= 8.1.4)
+  skype (>= 0)
   spectacle (>= 0)
+  spotify (>= 0)
   stdlib (= 4.2.1)
+  steam (>= 0)
   sudo (= 1.0.0)
   virtualbox (= 1.0.12)
+  vlc (>= 0)
   xquartz (= 1.2.1)
 
