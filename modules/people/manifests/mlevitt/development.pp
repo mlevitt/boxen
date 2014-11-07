@@ -1,7 +1,11 @@
 class people::mlevitt::development {
 
-  # include people::mlevitt::python_dev
-
+#  # include people::mlevitt::python_dev
+#  include eclipse::java
+#  class { 'eclipse::java':
+#    release => 'luna',
+#    version => 'R'
+#   }
   # Homebrew packages
   package { [
     'autoconf',

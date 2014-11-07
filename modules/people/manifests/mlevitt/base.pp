@@ -5,6 +5,7 @@ class people::mlevitt::base {
   include people::mlevitt::handbrake
   include people::mlevitt::iterm2
   include java
+  include imagemagick
   include people::mlevitt::osx_defaults
   include quicksilver
   include skype
