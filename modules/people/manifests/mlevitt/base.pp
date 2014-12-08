@@ -2,6 +2,7 @@ class people::mlevitt::base {
   include dropbox
   include people::mlevitt::dotfiles
   include flux
+  include googleearth
   include people::mlevitt::handbrake
   include people::mlevitt::iterm2
   include java
