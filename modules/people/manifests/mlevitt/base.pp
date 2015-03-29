@@ -13,9 +13,12 @@ class people::mlevitt::base {
   include spotify
   include steam
   include spectacle
+  # include utorrent
   include vlc
+  include wireshark
 
   package { [
+    'boot2docker',
     'tmux',
     'tree',
     'watch',
