@@ -17,7 +17,7 @@ class people::mlevitt::development {
     'freetype',
     'fswatch',
     'gdbm',
-    'gpg',
+    'gnupg',
     'graphviz',
     'jpeg',
     'libevent',
