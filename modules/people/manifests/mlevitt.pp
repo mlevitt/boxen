@@ -43,11 +43,6 @@ class people::mlevitt {
   include virtualbox
   include zsh
 
-package { 'Geektool':
-  source   => "https://dl.devmate.com/org.tynsoe.GeekTool/331.014/1470733752/GeekTool-331.014.zip",
-           provider => 'compressed_app',
-}
-
   # Various homebrew packages
   package { [
     'dos2unix',
@@ -66,6 +61,7 @@ package { 'Geektool':
   # Caskroom packages
   package { [
       'docker-edge',
+      'geektool',
       'quicksilver',
     ]:
     ensure => present,
