@@ -67,6 +67,7 @@ class people::mlevitt {
   # Caskroom packages
   package { [
       'docker-edge',
+      'dropbox',
       'firefox',
       'geektool',
       'quicksilver',
