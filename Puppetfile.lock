@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/BillWeiss/puppet-ohmyzsh.git
+  ref: dont-run-on-every-run
+  sha: e70d94869fe50cb97c8ed513fdb3abbda259568e
+  specs:
+    ohmyzsh (0.0.1)
+
 GITHUBTARBALL
   remote: boxen/puppet-atom
   specs:
@@ -144,11 +151,6 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
-  remote: erivello/puppet-ohmyzsh
-  specs:
-    ohmyzsh (1.0.0)
-
-GITHUBTARBALL
   remote: jenscobie/puppet-kubectl
   specs:
     kubectl (1.0.3)
@@ -224,7 +226,7 @@ DEPENDENCIES
   module_data (= 0.0.4)
   nginx (= 1.7.0)
   nodejs (= 5.0.9)
-  ohmyzsh (= 1.0.0)
+  ohmyzsh (>= 0)
   openssl (= 1.0.0)
   osx (= 2.8.0)
   phantomjs (= 3.0.0)

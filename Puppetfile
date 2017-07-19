@@ -72,10 +72,11 @@ github "java",        "1.8.4"
 github "kubectl",     "1.0.3", :repo => "jenscobie/puppet-kubectl"
 github "mactex",      "0.1.0", :repo => "omegaice/puppet-mactex"
 github "macvim",      "1.0.0"
-github "ohmyzsh",     "1.0.0", :repo => "erivello/puppet-ohmyzsh"
 github "osx",         "2.8.0"
 github "spectacle",   "1.0.1", :repo => "mpherg/puppet-spectacle"
 github "tmux",        "1.0.2"
 github "vagrant",     "3.3.4"
 github "virtualbox",  "1.0.13sf2", :repo => "signalfx/puppet-virtualbox"
 github "zsh",         "1.0.0"
+
+mod 'ohmyzsh', :ref => 'dont-run-on-every-run', :git  => 'https://github.com/BillWeiss/puppet-ohmyzsh.git'
