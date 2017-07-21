@@ -56,6 +56,7 @@ class people::mlevitt {
     'gpg',
     'jq',
     'maven',
+    'mr',
     'pstree',
     'pv',
     'reattach-to-user-namespace',
