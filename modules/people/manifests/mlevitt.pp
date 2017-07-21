@@ -58,6 +58,7 @@ class people::mlevitt {
     'maven',
     'pstree',
     'pv',
+    'reattach-to-user-namespace',
     'tree',
     'watch',
     ]:
@@ -66,11 +67,18 @@ class people::mlevitt {
 
   # Caskroom packages
   package { [
+      'backuploupe',
+      'chrome',
       'docker-edge',
       'dropbox',
       'firefox',
       'geektool',
+      'inkscape',
+      'keycastr',
+      'lastpass',
       'quicksilver',
+      'spotify',
+      'textmate',
     ]:
     ensure => present,
     provider => 'brewcask',
