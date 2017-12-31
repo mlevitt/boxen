@@ -13,7 +13,7 @@ class people::mlevitt::base {
   include spotify
   include steam
   include spectacle
-  # include utorrent
+  include utorrent
   include vlc
   include wireshark
 
