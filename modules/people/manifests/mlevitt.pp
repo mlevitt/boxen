@@ -9,4 +9,5 @@ class people::mlevitt {
   include people::mlevitt::dnscrypt
 
   include virtualbox
+  include zsh
 }

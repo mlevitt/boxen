@@ -11,7 +11,6 @@ class people::mlevitt::base {
     'imagemagick',
     'tmux',
     'tree',
-    'vagrant',
     'watch',
     'wireshark'
     ]:
@@ -22,10 +21,12 @@ class people::mlevitt::base {
     'firefox', 
     'flux',
     'google-chrome', 
+    'keybase',
     'quicksilver',
     'spectacle',
     'spotify',
     'steam',
+    'vagrant',
     'vlc',
   ]
 
