@@ -26,4 +26,14 @@ class people::mlevitt::development {
     ]:
     ensure => 'present',
   }
+
+  $caskAble = [
+    'meld',
+  ]
+
+  ensure_resource('package', $caskAble, {
+    'provider' => 'brewcask',
+  })
+
+
 }
